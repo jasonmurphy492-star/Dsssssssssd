@@ -19,8 +19,8 @@ AUTO_LIKE_EMOJIS: process.env.AUTO_LIKE_EMOJIS || "💛,❤️,💜,🤍,💙", 
 AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "false",
 STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "✅️ Status Viewed By JAWAD MD", // // Input Yours custom...
 MODE: process.env.MODE || "public", // Put private or public or inbox or groups
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923427582273", // Only 1 owner Number Here, others Add to sudo numbers...
-OWNER_NAME: process.env.OWNER_NAME || "JawadTech", // Input Yours custom...(Maintain font for Flow)
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923145153296", // Only 1 owner Number Here, others Add to sudo numbers...
+OWNER_NAME: process.env.OWNER_NAME || "👑 NᴼUᴹAᴺ SᴴEᴵKᴴ MD 👑", // Input Yours custom...(Maintain font for Flow)
 PACK_AUTHOR: process.env.PACK_AUTHOR || "🩵", // Added // Input Yours custom...
 PACK_NAME: process.env.PACK_NAME || "💙", // Added // Input Yours custom...
 PREFIX: process.env.PREFIX || ".",
@@ -31,11 +31,12 @@ ANTIBAD: process.env.ANTIBAD || "false",
 BAD_WORDS: process.env.BAD_WORDS || "null, pm, dm, idiot", // Add Yours Separated by Comma(will be deleted if ANTIBAD is set to true)
 ANTICALL_MSG: process.env.ANTICALL_MSG || "*_📞 Auto Call Reject Mode Active. 📵 No Calls Allowed!_*",
 AUTO_REACT: process.env.AUTO_REACT || "false",
-BOT_NAME: process.env.BOT_NAME || "JAWAD-MD", //  don't change 
+BOT_NAME: process.env.BOT_NAME || "👑 NᴼUᴹAᴺ SᴴEᴵKᴴ MD 👑", //  don't change 
 BOT_PIC: process.env.BOT_PIC || "https://files.catbox.moe/pf270b.jpg", //  don't change 
+NEWS_CHANNEL: process.env.NEWS_CHANNEL || "https://whatsapp.com/channel/0029Vb9GVTu5vKAHA6obqD2d",
 AUTO_AUDIO: process.env.AUTO_AUDIO || "false",
 AUTO_BIO: process.env.AUTO_BIO || "false",
-AUTO_BIO_QUOTE: process.env.AUTO_BIO_QUOTE || "i am jawad md",
+AUTO_BIO_QUOTE: process.env.AUTO_BIO_QUOTE || "i am 👑 NᴼUᴹAᴺ SᴴEᴵKᴴ MD 👑",
 CHAT_BOT: process.env.CHAT_BOT || "false", // Put value to true to enablle for all chats only or inbox to ebanle in pm chats only or groups to enable in groups only else false
 WELCOME: process.env.WELCOME || "false",
 //not working for the moment do don't on it
@@ -48,4 +49,4 @@ TIME_ZONE: process.env.TIME_ZONE || "Asia/Karachi", // Enter yours else leave bl
 
 let file = require.resolve(__filename); 
 fs.watchFile(file, () => { fs.unwatchFile(file); console.log(`Update '${__filename}'`); delete require.cache[file]; require(file); });
-//KHAN MD; 🔥💸💀
+//👑 NᴼUᴹAᴺ SᴴEᴵKᴴ MD 👑
